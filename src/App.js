@@ -8,10 +8,11 @@ const App = () => {
   return (
     <main className='main'>
       <header className='header'>
-        <div className='logoBox'> Logo</div>
+        <div className='logoBox'> lOGO</div>
         <div className='triangle-topleft'/>
         <div className='companyInfo'>
           <div className='companyName'>
+            <div className='companyLogo'/>
             XYZ Enterprises Pvt.Ltd
           </div>
           <div className='companyName'><IoIosArrowDown/></div>

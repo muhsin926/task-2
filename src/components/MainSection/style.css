@@ -67,7 +67,7 @@ u{
 .card-wrapper{
     display: flex;
     gap: 3rem;
-    margin: 3rem 0
+    margin: 3rem 0;
 }
 .card{
     display: flex;
@@ -106,4 +106,19 @@ u{
 }
 .left-side h1{
     margin: 10px 0;
+}
+
+@media (max-width: 1024px) {
+    .plan-card-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .card-wrapper{
+    flex-wrap: wrap;
+
+    }
+}
+@media (max-width: 768px) {
+    .card{
+        flex-direction: column;
+    }
 }
