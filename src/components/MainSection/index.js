@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
 import { PLANS, PLAN_CATEGORIES } from "../../constants";
-import Button from "../Elements/Button";
 import PlanCard from "./partials/PlanCard";
 import CategoryCard from "./partials/CategoryCard";
 

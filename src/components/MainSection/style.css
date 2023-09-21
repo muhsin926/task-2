@@ -1,4 +1,4 @@
-.plan-btn{
+.plan-btn {
     margin-right: 0;
     margin-left: auto;
     border: 1px solid #333;
@@ -8,14 +8,16 @@
     display: flex;
     margin-bottom: 10px;
 }
-.planDate{
+
+.planDate {
     padding: 6px 30px;
     border-radius: 5rem;
     position: relative;
     font-size: 14px;
     cursor: pointer;
 }
-.ten{
+
+.ten {
     position: absolute;
     top: -3px;
     color: rgb(5 205 61);
@@ -23,7 +25,8 @@
     right: 10px;
     font-weight: 500;
 }
-.plan-card{
+
+.plan-card {
     padding: 2rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 1rem;
@@ -33,10 +36,11 @@
     transition: .3s ease-in-out;
 }
 
-.plan-card:hover{
-    transform: scale(1.09) ;
+.plan-card:hover {
+    transform: scale(1.09);
 }
-.plan-card-wrapper{
+
+.plan-card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
@@ -45,17 +49,19 @@
 .plan-card h1 {
     margin: 0px;
 }
-.plan-card p{
+
+.plan-card p {
     font-size: 12px;
     font-weight: 500;
     color: #4a4a4a;
     margin: 0;
 }
-.amount{
+
+.amount {
     font-weight: 400;
 }
 
-.flex{
+.flex {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -63,18 +69,19 @@
     margin-top: 5px;
 }
 
-u{
+u {
     font-size: 14px;
     font-weight: 600;
     margin: .5rem 0 0 1rem;
 }
 
-.card-wrapper{
+.card-wrapper {
     display: flex;
     gap: 3rem;
     margin: 3rem 0;
 }
-.card{
+
+.card {
     display: flex;
     padding: 2rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -83,50 +90,58 @@ u{
     align-items: center;
     transition: .3s ease-in-out;
 }
-.card:hover{
+
+.card:hover {
     transform: scale(1.09);
 }
-.left-side{
+
+.left-side {
     flex: 60%;
 }
-.right-side{
+
+.right-side {
     flex: 40%;
 }
 
-.left-side p{
+.left-side p {
     font-size: 12px;
     font-weight: 500;
     color: #4a4a4a;
     margin: 0;
 }
-.right-side p{
+
+.right-side p {
     font-size: 12px;
     font-weight: 500;
     color: #4a4a4a;
     margin: 0;
 }
-.subTitle{
+
+.subTitle {
     padding: 7px 12px;
     max-width: fit-content;
     border-radius: 1.5rem;
     font-size: 12px;
     margin-bottom: 5px;
 }
-.left-side h1{
+
+.left-side h1 {
     margin: 10px 0;
 }
 
 @media (max-width: 1024px) {
-    .plan-card-wrapper{
+    .plan-card-wrapper {
         grid-template-columns: 1fr;
     }
-    .card-wrapper{
-    flex-wrap: wrap;
+
+    .card-wrapper {
+        flex-wrap: wrap;
 
     }
 }
+
 @media (max-width: 768px) {
-    .card{
+    .card {
         flex-direction: column;
     }
 }

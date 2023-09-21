@@ -16,7 +16,7 @@ const Sidebar = () => {
     <div style={{height: '82%', display: 'flex', flexDirection:'column'}}>
         <div className='navBox'>
             {NAV_ITEMS.map((item,i) => (
-                <div key={item} style={{backgroundColor: i == 0 && 'rgb(121 192 255)'}} className='navButton'><MdDashboard color='rgb(0 132 249)'/> {item}</div>
+                <div key={item} style={{backgroundColor: i === 0 && 'rgb(121 192 255)'}} className='navButton'><MdDashboard color='rgb(0 132 249)'/> {item}</div>
             ))}
         </div>
         <div className='logout'>
