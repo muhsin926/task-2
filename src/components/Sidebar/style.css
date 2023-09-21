@@ -40,6 +40,11 @@
     gap: 10px;
     font-weight: 600;
     margin-top: 1rem;
+    cursor: pointer;
+}
+
+.navButton:hover{
+    background-color: #dff3ff;
 }
 
 .logout{

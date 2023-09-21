@@ -30,6 +30,11 @@
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    transition: .3s ease-in-out;
+}
+
+.plan-card:hover{
+    transform: scale(1.09) ;
 }
 .plan-card-wrapper{
     display: grid;
@@ -76,7 +81,10 @@ u{
     border-radius: 1rem;
     gap: .5rem;
     align-items: center;
-
+    transition: .3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.09);
 }
 .left-side{
     flex: 60%;
