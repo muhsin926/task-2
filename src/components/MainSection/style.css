@@ -1,0 +1,70 @@
+.plan-btn{
+    margin-right: 0;
+    margin-left: auto;
+    border: 1px solid #333;
+    border-radius: 5rem;
+    padding: 4px;
+    width: 220px;
+    display: flex;
+}
+.planDate{
+    padding: 6px 30px;
+    border-radius: 5rem;
+    position: relative;
+    font-size: 14px;
+    cursor: pointer;
+}
+.ten{
+    position: absolute;
+    top: -3px;
+    color: rgb(5 205 61);
+    font-size: 9px;
+    right: 10px;
+    font-weight: 500;
+}
+.plan-card{
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.plan-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+}
+
+.plan-card h1 {
+    margin: 0px;
+}
+.plan-card p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin: 0;
+}
+.amount{
+    font-weight: 400;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+u{
+    font-size: 14px;
+    font-weight: 600;
+    margin: .5rem 0 0 1rem;
+}
+
+.card-wrapper{
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+.card-wrapper

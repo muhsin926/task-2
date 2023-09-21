@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {IoIosArrowDown} from 'react-icons/io'
+import Sidebar from './components/Sidebar'
+import MainSection from './components/MainSection'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <main className='main'>
+      <header className='header'>
+        <div className='logoBox'> Logo</div>
+        <div className='triangle-topleft'/>
+        <div className='companyInfo'>
+          <div className='companyName'>
+            XYZ Enterprises Pvt.Ltd
+          </div>
+          <div className='companyName'><IoIosArrowDown/></div>
+        </div>
       </header>
-    </div>
-  );
+      <aside className='sidebar'>
+        <Sidebar/>
+      </aside>
+      <section className='mainSection'>
+        <MainSection/>
+      </section>
+    </main>
+    
+  )
 }
 
-export default App;
+export default App
