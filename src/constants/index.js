@@ -74,6 +74,7 @@ export const PLAN_CATEGORIES = [
     subTitle: "Free forever",
     text: "The quickest and easiest way to try protocols with basic functionalities.",
     btnContent: "Get Started",
+    btnColor: 'rgb(175 255 36 / 64%)',
     willGet: [
       {
         icon: <AiOutlineUser />,
@@ -96,6 +97,7 @@ export const PLAN_CATEGORIES = [
   {
     title: "Enterprise Plan",
     subTitle: "Let's Connect",
+    btnColor: '#a5dafa',
     text: "Effortlessly customize and fine-tune services as your needs shift, ensuring the perfect tools for success.",
     btnContent: "Contact Us",
     willGet: [

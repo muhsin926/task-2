@@ -6,6 +6,7 @@
     padding: 4px;
     width: 220px;
     display: flex;
+    margin-bottom: 10px;
 }
 .planDate{
     padding: 6px 30px;
@@ -52,6 +53,7 @@
 .flex{
     display: flex;
     align-items: center;
+    justify-content: start;
     gap: 10px;
     margin-top: 5px;
 }
@@ -65,6 +67,43 @@ u{
 .card-wrapper{
     display: flex;
     gap: 3rem;
-    margin-top: 3rem;
+    margin: 3rem 0
 }
-.card-wrapper
+.card{
+    display: flex;
+    padding: 2rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem;
+    gap: .5rem;
+    align-items: center;
+
+}
+.left-side{
+    flex: 60%;
+}
+.right-side{
+    flex: 40%;
+}
+
+.left-side p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin: 0;
+}
+.right-side p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin: 0;
+}
+.subTitle{
+    padding: 7px 12px;
+    max-width: fit-content;
+    border-radius: 1.5rem;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.left-side h1{
+    margin: 10px 0;
+}
